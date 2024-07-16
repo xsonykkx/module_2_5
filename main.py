@@ -3,8 +3,8 @@ def get_matrix(n, m, value):
     for i in range(n):
         take = []
         matrix.append(take)
-    for j in range(m):
-        take.append(value)
+        for j in range(m):
+            take.append(value)
     return matrix
 
 
